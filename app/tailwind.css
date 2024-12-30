@@ -1,12 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "credit";
+  src: url("./assets/font/lucasarts-scumm-credits-alt/lucasarts-scumm-credits-alt.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "outline";
+  src: url("./assets/font/lucasarts-scumm-outline/lucasarts-scumm-outline.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "solid";
+  src: url("./assets/font/lucasarts-scumm-solid/lucasarts-scumm-solid.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trattatello";
+  src: url("./assets/font/Trattatello-wc.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 html,
 body {
   @apply bg-white dark:bg-gray-950;
+  font-family: "Trattatello";
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+p {
+  font-family: "Trattatello";
+}
+
+a {
+  font-family: "solid";
+  color: #000;
+}
+h1 {
+  font-family: "outline";
 }
