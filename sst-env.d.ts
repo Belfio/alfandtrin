@@ -6,5 +6,9 @@ import "sst"
 export {}
 declare module "sst" {
   export interface Resource {
+    "AlfAndTrin": {
+      "type": "sst.aws.Remix"
+      "url": string
+    }
   }
 }

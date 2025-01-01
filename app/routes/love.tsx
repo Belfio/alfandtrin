@@ -28,17 +28,17 @@ export default function Love() {
       {story.map((s) => (
         <div
           key={s.title}
-          className="flex flex-col items-center margin-auto py-12 md:py-24"
+          className="flex flex-col items-center margin-auto py-12 md:py-24 h-auto"
         >
           <div className="text-center text-xl md:text-2xl font-[solid]">
             {s.title}
           </div>
-          <p className="text-center text-2xl py-4 px-4 max-w-[400px]">
+          <p className="text-center text-2xl py-4 px-4 max-w-[500px] h-auto">
             {s.description}
           </p>
           <div className="w-full max-w-[400px] px-4 my-4 md:my-8 justify-center text-center">
-            <div className="relative w-full pb-[75%]">
-              <div className="absolute inset-0 flex items-center justify-center">
+            <div className="relative w-full">
+              <div className=" inset-0 flex items-center justify-center">
                 {s.photo}
               </div>
             </div>

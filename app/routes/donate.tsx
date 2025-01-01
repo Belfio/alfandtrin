@@ -37,7 +37,7 @@ export default function Donate() {
                   className="bg-[#cd853f] hover:bg-[#8b4513] text-white text-xl font-bold py-6 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:rotate-1 shadow-lg"
                   onClick={() =>
                     window.open(
-                      "https://buy.stripe.com/test_28o29z0Sx3Ht1Gg144",
+                      "https://www.asos.com/women/shoes/chunky-shoes/cat/?cid=19827&page=2",
                       "_blank"
                     )
                   }
